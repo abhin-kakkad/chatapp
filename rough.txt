@@ -1,0 +1,83 @@
+<h1> The first thing</h1>
+
+<p>
+  I am a student, writer, and life coach currently living in Ahmedabad, India. <br>
+  My interests range from entrepreneurship to sports.<br>
+  I am also interested in education, technology, and photography.<br>
+</p>
+
+<button>Click me....</button>
+<button class="primary-button">World</button>
+<button class="primary-button">says</button>
+
+<h1> The first thing</h1>
+
+<p>
+  I am a student, writer, and life coach currently living in Ahmedabad, India. <br>
+  My interests range from entrepreneurship to sports.<br>
+  I am also interested in education, technology, and photography.<br>
+</p>
+
+<button>Click me....</button>
+<button class="primary-button">World</button>
+<button class="primary-button">says</button>
+
+p {
+display: block;
+color: white;
+font-size: 16px;
+font-family: 'Indie Flower', cursive;
+background:purple;
+padding: 10px;
+clear both;
+}
+
+h1 {
+  font-size: 16px;
+  display: block;
+  fontpurle;-family: 'Indie Flower', cursive;
+  color: white;
+  background: orange;
+}
+
+div.sidebar {
+  position: fixed;
+  width: 30%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+}
+
+div{
+  background: #123456;
+  height: 100%;
+  width: 70%;
+}
+
+
+
+button{
+  background: pink;
+  color: black;
+  border: solid 1px black ;
+  padding: 3px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.primary-button {
+  background: yellow;
+  color: black;
+  border: solid 1px black;
+  padding: 3px;
+  cursor: pointer;
+  margin: 20px;
+}
+button:hover{
+  color: yellow;
+  background: black;
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower" >
