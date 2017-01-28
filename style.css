@@ -2,7 +2,7 @@ html, body {
   font-size: 14px;
     height: 100%;
     box-sizing: border-box;
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
     clear both;
 
 }
@@ -63,18 +63,119 @@ body.homepage {
   bottom: 0;
   top: 0;
   width: 30%;
-  background-color:  darkblue;
-  border-radius: 10px;
+  background-color:  purple;
 }
 
-.message {
+.message_area {
 
   position: fixed;
-  background-color: orange;
+  background-color: white;
   bottom: 0;
   top: 0;
   left: 30%;
   width:  70%;
-  border-radius: 10px;
+  border: solid 3px orange;
 
+}
+
+.user {
+  color: orange;
+  padding: 15px;
+  border: solid;
+  border-color: purple;
+  font-size: 24px;
+}
+
+.span {
+  color: orange;
+  background: purple;
+  padding: 5px;
+  border: solid;
+  border-radius: 5px;
+  border-color: purple;
+  font-size: 12px;
+  float: right;
+  cursor: pointer;
+}
+.span:hover{
+  background-color: orange;
+  color: purple;
+}
+
+.member_name {
+
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border-bottom: solid 1px orange;
+  cursor: pointer;
+}
+
+.member_name:hover {
+  background-color: white;
+  color: purple;
+}
+
+.member_name.active {
+  background-color: white;
+  color: purple;
+  font-weight: bold;
+}
+
+.messages {
+  background: white;
+  height: 80%;
+  overflow: auto;
+  padding: 10px;
+}
+
+.message {
+  background: orange;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 50%;
+  float: right;
+  border: solid 1px purple;
+}
+
+.messageu {
+  background: orange;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 50%;
+  float: left;
+  border: solid 1px purple;
+}
+
+.chat{
+
+  color: white;
+  padding: 15px;
+  border: solid 1px orange;
+  font-size: 24px;
+  background-color: purple;
+
+}
+
+.chat_form {
+
+  position: fixed;
+  background: purple;
+  border: solid 2px orange;
+  left: 30%;
+  bottom: 0;
+  width: 70%;
+  padding: 15px;
+}
+
+.chat_message {
+
+  display: block;
+  background: white;
+  border: solid 1px darkgray;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
 }
