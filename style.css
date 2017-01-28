@@ -4,16 +4,18 @@ html, body {
     box-sizing: border-box;
     font-family: 'Lobster', cursive;
     clear both;
+
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
-body {
+body.homepage {
   background-image: url("DSC_0806.JPG");
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .main{
@@ -22,11 +24,12 @@ body {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  opacity: 1;
 }
 
 .logo {
-  font-size: 50px;
-  color: lightblue;
+  font-size: 40px;
+  color: orange;
   font-weight: lighter;
   margin-bottom: 10px;
   margin-top: 0;
@@ -34,12 +37,12 @@ body {
 
 .tagline {
   font-size: 32px;
-  color: brown;
+  color: darkblue;
   font-weight: normal;
 }
 
 .button {
-  background-color: purple;
+  background-color: darkblue;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -48,26 +51,30 @@ body {
 }
 
 .button:hover {
-  color: purple;
+  color: darkblue;
   background: orange;
 }
 
-/*.sidebar {
+/* This is a seperator line*/
+
+.member {
   position: fixed;
   left: 0;
   bottom: 0;
   top: 0;
   width: 30%;
-  background-color:  grey;
+  background-color:  darkblue;
+  border-radius: 10px;
 }
 
-.maincontent {
+.message {
 
   position: fixed;
-  background-color: magenta;
+  background-color: orange;
   bottom: 0;
   top: 0;
   left: 30%;
   width:  70%;
+  border-radius: 10px;
 
-}*/
+}
