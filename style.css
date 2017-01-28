@@ -1,0 +1,37 @@
+html, body {
+  font-size: 32px
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    clear both;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.button{
+  padding: 20px;
+  width: 200px;
+  height: 50px;
+}
+
+/*.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 30%;
+  background-color:  grey;
+}
+
+.maincontent {
+
+  position: fixed;
+  background-color: magenta;
+  bottom: 0;
+  top: 0;
+  left: 30%;
+  width:  70%;
+
+}*/
