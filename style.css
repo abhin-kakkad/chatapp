@@ -64,6 +64,7 @@ body.homepage {
   top: 0;
   width: 30%;
   background-color:  purple;
+  border: solid 3px orange;
 }
 
 .message_area {
