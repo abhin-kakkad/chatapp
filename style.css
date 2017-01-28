@@ -1,5 +1,5 @@
 html, body {
-  font-size: 32px
+  font-size: 14px;
     height: 100%;
     box-sizing: border-box;
     font-family: 'Lobster', cursive;
@@ -10,10 +10,46 @@ html, body {
     box-sizing: inherit;
 }
 
-.button{
-  padding: 20px;
-  width: 200px;
-  height: 50px;
+body {
+  background-image: url("bg.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main{
+  width: 500px;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo {
+  font-size: 50px;
+  color: orange;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.tagline {
+  font-size: 32px;
+  color: orange;
+  font-weight: normal;
+}
+
+.button {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: purple;
+  background: orange;
 }
 
 /*.sidebar {
